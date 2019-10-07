@@ -19,11 +19,15 @@ e = "a string with a right side"
 print(w+e)
 
 # More Printing fun
+#
 
 print("Mary had a little lamb.")
 print("its fleece was white as %s." % 'snow')
 print("and everywhere that mary went.")
 print("." * 10)
+
+#below i am setting each end into a letter
+
 end1 = "c"
 end2 = "h"
 end3 = "e"
@@ -36,6 +40,8 @@ end8 = "r"
 end9 = "g"
 end10 = "e"
 end11 = "r"
+
+# i am now adding all the ends together but now they equal a letter and they all spell out Cheeseburger
 
 print(end1+end2+end3+end4+end5+end52)
 print(end6+end7+end8+end9+end10+end11)
