@@ -85,3 +85,25 @@ print(persiancat)
 print(backslashcat)
 print(topcat)
 
+# escape seq         what it does
+# \\         1    Divides the amount of the symbols by 2
+# \'         2    It takes the slash away and puts the ' by its self
+# \"         3    It takes the slash away and puts the " by its self
+# \a         4
+# \b         5
+# \f         6
+# \n         7
+# \n(name)   8
+# \r         9
+# \t         10
+# \XXXXX     11
+# \XXXXXXXX  12
+# \v         13
+# \ooo       14
+# \xhh       15
+
+
+print("1 \\\\\\\\\\\\\\\\\\\\\\\\")
+print("2 \'")
+print("3 \"")
+print("4 \a")
