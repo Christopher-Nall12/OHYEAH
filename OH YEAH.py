@@ -55,3 +55,5 @@ end11 = "r"
 print(end1+end2+end3+end4+end5+end52)
 print(end6+end7+end8+end9+end10+end11)
 
+# the %r is used to put all values instead of putting %d or %s which would cause an error.
+# It is used to tell the computer to write both values.
