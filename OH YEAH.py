@@ -73,7 +73,7 @@ able to use mas many lines as we need/want.
 print("here are the months: %r " % months)
 
 tabbycat = "\tI'm tabbed in."
-persiancat = " i'm split\non a line"
+persiancat = "i'm split\non a line"
 backslashcat = "i'm \\ a \\ cat"
 topcat = """ill do a list
 \t*cat food
