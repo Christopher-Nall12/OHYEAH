@@ -57,3 +57,31 @@ print(end6+end7+end8+end9+end10+end11)
 
 # the %r is used to put all values instead of putting %d or %s which would cause an error.
 # It is used to tell the computer to write both values.
+# the %r prints everything that is in the shortcut even the \n which is not put in with the %s
+
+
+days = "monday tuesday wednesday thursday friday saturday sunday"
+months = "Jan\nfeb\nmarch\napril\nmay\njune\njuly\naug\nsept\nnov\ndec"
+print("here are the days: ", days)
+print("here are the months: ", months)
+
+print("""when using the triple quotation marks we are 
+able to use mas many lines as we need/want.
+ it can be 3 or 
+ 4 lines.""")
+
+print("here are the months: %r " % months)
+
+tabbycat = "\tI'm tabbed in."
+persiancat = " i'm split\non a line"
+backslashcat = "i'm \\ a \\ cat"
+topcat = """ill do a list
+\t*cat food
+\t*fishies
+\t*catnip\n\t*grass"""
+
+print(tabbycat)
+print(persiancat)
+print(backslashcat)
+print(topcat)
+
