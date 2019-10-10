@@ -122,3 +122,9 @@ print("You like going to %r" % favoriteClass)
 print("You like looking at %r" % favoriteColor)
 print("You like petting %r" % favoriteAnimal)
 print("You like eating %r" % favoriteFood)
+
+# Make a story with the question thingy
+
+FavoriteAnimal = input("Whats your favorite animal?")
+FavoriteBird = input("Whats your favorite bird?")
+FavoriteFlavorSnowcone = ("Whats your favorite snowcone flavor?")
