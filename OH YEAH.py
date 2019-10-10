@@ -107,3 +107,18 @@ print("1 \\\\\\\\\\\\\\\\\\\\\\\\")
 print("2 \'")
 print("3 \"")
 print("4 \a")
+
+
+age = input("How old are you?")
+height = input("How tall are you?")
+print("So, you are %r old and %r tall" %(age, height))
+
+
+favoriteClass = input("Whats your favorite class?")
+favoriteColor = input("Whats your favorite color?")
+favoriteAnimal = input("Whats your favorite animal?")
+favoriteFood = input("Whats your favorite food?")
+print("You like going to %r" % favoriteClass)
+print("You like looking at %r" % favoriteColor)
+print("You like petting %r" % favoriteAnimal)
+print("You like eating %r" % favoriteFood)
