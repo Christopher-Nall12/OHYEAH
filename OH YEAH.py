@@ -128,3 +128,20 @@ print("You like eating %r" % favoriteFood)
 FavoriteAnimal = input("Whats your favorite animal?")
 FavoriteBird = input("Whats your favorite bird?")
 FavoriteFlavorSnowcone = ("Whats your favorite snowcone flavor?")
+FavoriteSnake = input("Whats your favorite type of snake?")
+FamilySize = input("How many people do you have in your family?")
+ScaredOfWhat = input("What animal are you scared of?")
+ScaredOfSpiders = input("Do spiders scare you?")
+
+print("One day while you were at the zoo with %r" % FamilySize)
+print("You walk by the %r, your favorite animal, and stay there for a while." % FavoriteAnimal)
+print("Next, you walk further down and see a %r, your favorite bird.\n The bird lands on you hand while you feed it." % FavoriteBird)
+print("You walk inside the reptile exhibit and find the %r cage. \nSit there watching it for a while then you move on." % FavoriteSnake)
+print("Right next to the snake exhibit you find the %r cage. \nThis animal has haunted your dreams for many nights." % ScaredOfWhat)
+print("""Just whe you think your safe your Mom sees a spider crawling on your arm. 
+She asks if spiders scare you and you answer %r as you jump and wildly slap the spider off.
+Your whole family starts laughing including you.
+Everyone goes on finding all their favorite animals.""" % ScaredOfSpiders)
+print("""As a treat your parents alow you and your sibling(s) to get a snow cone. 
+You get the %r flavor as it is your favorite.""" % FavoriteFlavorSnowcone)
+print("""Going home is the worst part of the trip but you had fun, even with the jump scares.""")
